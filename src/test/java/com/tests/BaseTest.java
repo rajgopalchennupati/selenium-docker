@@ -19,7 +19,7 @@ public class BaseTest {
         // BROWSER => chrome / firefox
         // HUB_HOST => localhost / 10.0.1.3 / hostname
 
-        String host = "localhost";
+        String host = "18.191.38.55";
         DesiredCapabilities dc;
 
         if(System.getProperty("BROWSER") != null &&
